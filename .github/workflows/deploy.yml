@@ -2,11 +2,11 @@ name: Deploy to Server
 
 on:
 push:
-    branches:
-    - main
+  branches:
+  - main
 
 jobs:
-build-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     environment: server_config
 
